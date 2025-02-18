@@ -1,0 +1,6 @@
+git init, inicia repositorio
+git clone +URL, clona un repositorio
+git log, para ver los commit
+git status, para ver los datos pendientes de archivar
+git add ., para guardar todos los cambios
+git commit -m "comentario", para hacer el commit
