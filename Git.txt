@@ -1,6 +1,11 @@
-git init, inicia repositorio
-git clone +URL, clona un repositorio
-git log, para ver los commit
-git status, para ver los datos pendientes de archivar
-git add ., para guardar todos los cambios
-git commit -m "comentario", para hacer el commit
+git init  #inicia repositorio
+git clone +URL #clona un repositorio
+git log #para ver los commit
+git log --graph --decorate --all --oneline #para mejorar la visión de los commit
+git status #para ver los datos pendientes de archivar
+git add . #para guardar todos los cambios
+git commit -m "comentario" #para hacer el commit
+git config --global user.name "amarp20" #para cambiar el nombre de usuario de mis repositorios
+git config --global user.email knigth.moro@gmail.com #para poner un correo de mi usuario
+git commit --amend --reset-author #para actualizar los datos de las 2 líneas de arriba
+git checkout 4e2ed53 #vuelve al commit especificado en el hash
